@@ -4,14 +4,14 @@ import random
 first_names = []
 last_names = []
 
-first_name_csv = 'CSV_Database_of_First_Names.csv'
-last_name_csv = 'CSV_Database_of_Last_Names.csv'
+first_name_csv = 'data/CSV_Database_of_First_Names.csv'
+last_name_csv = 'data/CSV_Database_of_Last_Names.csv'
 departments = ["Accounting", "Purchasing", "Management", "IT", "Logistics", "Marketing", "Sales", "Human Resources", "Customer Service"]
 
 outfile = raw_input("Enter filename: ")
 if not outfile.endswith('.csv'):
 	outfile = outfile + ".csv"
-	
+
 num_users = int(raw_input("Number of users to generate: "))
 
 usernames = []
