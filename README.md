@@ -1,0 +1,1 @@
+I find myself needing to generate CSV files of test users quite often so this is just a quick a dirty script that does exactly that.
