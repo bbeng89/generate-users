@@ -25,7 +25,7 @@ def random_last_name():
 def random_phone_number():
 	area_code = str(random.randint(1, 9)) + str(random.randint(0, 9)) + str(random.randint(1, 9))
 	first_three = str(random.randint(1, 9)) + str(random.randint(0, 9)) + str(random.randint(1, 9))
-	last_four = str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9))
+	last_four = str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0,9))
 	return '(' + area_code + ') ' + first_three + '-' + last_four 
 
 def random_extension():
